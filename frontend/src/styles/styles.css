@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a, nav ul li button {
+    text-decoration: none;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  nav ul li button:hover,
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  input, select, button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
